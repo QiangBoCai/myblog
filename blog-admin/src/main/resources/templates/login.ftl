@@ -8,7 +8,7 @@
     <title>${config.siteName}后台管理系统</title>
     <link href="/assets/images/favicon.ico" rel="icon">
     <link href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.bootcss.com/jquery-confirm/2.5.1/jquery-confirm.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
     <link href="/assets/css/zhyd.core.css" rel="stylesheet">
@@ -25,9 +25,9 @@
                         <section class="login_content">
                             <form action="/passport/signin" method="POST" id="login-form">
                                 <h1>登录管理系统</h1>
-                                <#if message?exists>
+                                <#if message??>
                                     <div class="alert alert-danger" role="alert">
-                                        ${message?if_exists}
+                                        ${message!}
                                     </div>
                                 </#if>
                                 <div>
@@ -36,7 +36,7 @@
                                 <div>
                                     <input type="password" class="form-control" placeholder="请输入密码" name="password" required=""/>
                                 </div>
-                                <#if enableKaptcha?exists && enableKaptcha>
+                                <#if enableKaptcha?? && enableKaptcha>
                                     <div class="form-group col-xs-6" style="padding-left: 0px;">
                                         <img alt="点击获取验证码" id="img-kaptcha" src="/getKaptcha" style="cursor:pointer;height: 34px;width: 180px;">
                                     </div>

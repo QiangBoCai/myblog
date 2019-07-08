@@ -1,0 +1,744 @@
+2019-07-08  16:35:17.314 INFO  com.zyd.blog.BlogAdminApplication - Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)
+ - Starting BlogAdminApplication v2.2.2 on IW-20190211CJKX with PID 12912 (D:\me_workspace2\blog-admin\target\blog-admin-2.2.2.jar started by Administrator in E:\Lance\Data\github\myblog)
+2019-07-08  16:35:17.327 DEBUG com.zyd.blog.BlogAdminApplication - Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53)
+ - Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2019-07-08  16:35:17.332 INFO  com.zyd.blog.BlogAdminApplication - Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:679)
+ - The following profiles are active: dev,center-dev,center
+2019-07-08  16:35:19.357 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleMapper.class]
+2019-07-08  16:35:19.382 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizStatisticsMapper.class]
+2019-07-08  16:35:19.385 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysLinkMapper.class]
+2019-07-08  16:35:19.389 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysRoleMapper.class]
+2019-07-08  16:35:19.397 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysUserMapper.class]
+2019-07-08  16:35:19.399 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleArchivesMapper.class]
+2019-07-08  16:35:19.402 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleTagsMapper.class]
+2019-07-08  16:35:19.406 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizTagsMapper.class]
+2019-07-08  16:35:19.417 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysLogMapper.class]
+2019-07-08  16:35:19.419 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysRoleResourcesMapper.class]
+2019-07-08  16:35:19.422 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysUserRoleMapper.class]
+2019-07-08  16:35:19.431 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleLoveMapper.class]
+2019-07-08  16:35:19.433 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizFileMapper.class]
+2019-07-08  16:35:19.435 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysConfigMapper.class]
+2019-07-08  16:35:19.437 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysResourceMapper.class]
+2019-07-08  16:35:19.449 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysUpdateRecordeMapper.class]
+2019-07-08  16:35:19.451 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleLookMapper.class]
+2019-07-08  16:35:19.455 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizCommentMapper.class]
+2019-07-08  16:35:19.460 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizTypeMapper.class]
+2019-07-08  16:35:19.462 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysNoticeMapper.class]
+2019-07-08  16:35:19.464 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysTemplateMapper.class]
+2019-07-08  16:35:19.467 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleMapper' and 'com.zyd.blog.persistence.mapper.BizArticleMapper' mapperInterface
+2019-07-08  16:35:19.472 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleMapper'.
+2019-07-08  16:35:19.475 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizStatisticsMapper' and 'com.zyd.blog.persistence.mapper.BizStatisticsMapper' mapperInterface
+2019-07-08  16:35:19.484 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizStatisticsMapper'.
+2019-07-08  16:35:19.490 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysLinkMapper' and 'com.zyd.blog.persistence.mapper.SysLinkMapper' mapperInterface
+2019-07-08  16:35:19.493 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysLinkMapper'.
+2019-07-08  16:35:19.495 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysRoleMapper' and 'com.zyd.blog.persistence.mapper.SysRoleMapper' mapperInterface
+2019-07-08  16:35:19.497 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysRoleMapper'.
+2019-07-08  16:35:19.499 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysUserMapper' and 'com.zyd.blog.persistence.mapper.SysUserMapper' mapperInterface
+2019-07-08  16:35:19.502 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysUserMapper'.
+2019-07-08  16:35:19.510 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleArchivesMapper' and 'com.zyd.blog.persistence.mapper.BizArticleArchivesMapper' mapperInterface
+2019-07-08  16:35:19.512 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleArchivesMapper'.
+2019-07-08  16:35:19.515 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleTagsMapper' and 'com.zyd.blog.persistence.mapper.BizArticleTagsMapper' mapperInterface
+2019-07-08  16:35:19.520 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleTagsMapper'.
+2019-07-08  16:35:19.521 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizTagsMapper' and 'com.zyd.blog.persistence.mapper.BizTagsMapper' mapperInterface
+2019-07-08  16:35:19.525 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizTagsMapper'.
+2019-07-08  16:35:19.528 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysLogMapper' and 'com.zyd.blog.persistence.mapper.SysLogMapper' mapperInterface
+2019-07-08  16:35:19.543 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysLogMapper'.
+2019-07-08  16:35:19.549 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysRoleResourcesMapper' and 'com.zyd.blog.persistence.mapper.SysRoleResourcesMapper' mapperInterface
+2019-07-08  16:35:19.553 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysRoleResourcesMapper'.
+2019-07-08  16:35:19.555 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysUserRoleMapper' and 'com.zyd.blog.persistence.mapper.SysUserRoleMapper' mapperInterface
+2019-07-08  16:35:19.559 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysUserRoleMapper'.
+2019-07-08  16:35:19.560 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleLoveMapper' and 'com.zyd.blog.persistence.mapper.BizArticleLoveMapper' mapperInterface
+2019-07-08  16:35:19.569 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleLoveMapper'.
+2019-07-08  16:35:19.571 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizFileMapper' and 'com.zyd.blog.persistence.mapper.BizFileMapper' mapperInterface
+2019-07-08  16:35:19.572 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizFileMapper'.
+2019-07-08  16:35:19.575 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysConfigMapper' and 'com.zyd.blog.persistence.mapper.SysConfigMapper' mapperInterface
+2019-07-08  16:35:19.578 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysConfigMapper'.
+2019-07-08  16:35:19.579 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysResourceMapper' and 'com.zyd.blog.persistence.mapper.SysResourceMapper' mapperInterface
+2019-07-08  16:35:19.582 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysResourceMapper'.
+2019-07-08  16:35:19.585 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysUpdateRecordeMapper' and 'com.zyd.blog.persistence.mapper.SysUpdateRecordeMapper' mapperInterface
+2019-07-08  16:35:19.586 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysUpdateRecordeMapper'.
+2019-07-08  16:35:19.588 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleLookMapper' and 'com.zyd.blog.persistence.mapper.BizArticleLookMapper' mapperInterface
+2019-07-08  16:35:19.593 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleLookMapper'.
+2019-07-08  16:35:19.596 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizCommentMapper' and 'com.zyd.blog.persistence.mapper.BizCommentMapper' mapperInterface
+2019-07-08  16:35:19.602 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizCommentMapper'.
+2019-07-08  16:35:19.604 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizTypeMapper' and 'com.zyd.blog.persistence.mapper.BizTypeMapper' mapperInterface
+2019-07-08  16:35:19.606 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizTypeMapper'.
+2019-07-08  16:35:19.612 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysNoticeMapper' and 'com.zyd.blog.persistence.mapper.SysNoticeMapper' mapperInterface
+2019-07-08  16:35:19.613 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysNoticeMapper'.
+2019-07-08  16:35:19.616 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysTemplateMapper' and 'com.zyd.blog.persistence.mapper.SysTemplateMapper' mapperInterface
+2019-07-08  16:35:19.618 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysTemplateMapper'.
+2019-07-08  16:35:19.948 DEBUG tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MapperAutoConfiguration.java:189)
+ - Searching for mappers annotated with @Mapper
+2019-07-08  16:35:19.980 DEBUG tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MapperAutoConfiguration.java:201)
+ - Using auto-configuration base package 'com.zyd.blog'
+2019-07-08  16:35:20.043 WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:142)
+ - No MyBatis mapper was found in '[com.zyd.blog]' package. Please check your configuration.
+2019-07-08  16:35:20.058 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Caller+0	 at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MybatisAutoConfiguration.java:184)
+ - Searching for mappers annotated with @Mapper
+2019-07-08  16:35:20.063 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Caller+0	 at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MybatisAutoConfiguration.java:196)
+ - Using auto-configuration base package 'com.zyd.blog'
+2019-07-08  16:35:20.102 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166)
+ - No MyBatis mapper was found in '[com.zyd.blog]' package. Please check your configuration.
+2019-07-08  16:35:21.411 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+ - Init DruidDataSource
+2019-07-08  16:35:22.015 INFO  com.alibaba.druid.pool.DruidDataSource - Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930)
+ - {dataSource-1} inited
+2019-07-08  16:35:22.194 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:437)
+ - Scanned package: 'com.zyd.blog.persistence.beans' for aliases
+2019-07-08  16:35:22.827 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleMapper.xml]'
+2019-07-08  16:35:22.860 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizTypeMapper.xml]'
+2019-07-08  16:35:22.883 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysLinkMapper.xml]'
+2019-07-08  16:35:22.909 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysNoticeMapper.xml]'
+2019-07-08  16:35:22.929 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysRoleResourcesMapper.xml]'
+2019-07-08  16:35:22.959 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysUserRoleMapper.xml]'
+2019-07-08  16:35:22.977 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleArchivesMapper.xml]'
+2019-07-08  16:35:23.002 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleTagsMapper.xml]'
+2019-07-08  16:35:23.022 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizStatisticsMapper.xml]'
+2019-07-08  16:35:23.049 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysRoleMapper.xml]'
+2019-07-08  16:35:23.086 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysUserMapper.xml]'
+2019-07-08  16:35:23.105 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleLoveMapper.xml]'
+2019-07-08  16:35:23.127 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizFileMapper.xml]'
+2019-07-08  16:35:23.145 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizTagsMapper.xml]'
+2019-07-08  16:35:23.179 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysResourceMapper.xml]'
+2019-07-08  16:35:23.196 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysTemplateMapper.xml]'
+2019-07-08  16:35:23.220 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleLookMapper.xml]'
+2019-07-08  16:35:23.270 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizCommentMapper.xml]'
+2019-07-08  16:35:23.288 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysConfigMapper.xml]'
+2019-07-08  16:35:23.305 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysUpdateRecordeMapper.xml]'
+2019-07-08  16:35:25.346 DEBUG org.crazycake.shiro.RedisCacheManager - Caller+0	 at org.crazycake.shiro.RedisCacheManager.getCache(RedisCacheManager.java:47)
+ - 获取名称为: com.zyd.blog.core.shiro.realm.ShiroRealm.authorizationCache 的RedisCache实例
+2019-07-08  16:35:25.394 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:97)
+ - Creating a new SqlSession
+2019-07-08  16:35:25.409 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:148)
+ - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@163370c2] was not registered for synchronization because synchronization is not active
+2019-07-08  16:35:26.559 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - Caller+0	 at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87)
+ - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@51bf5add] will not be managed by Spring
+2019-07-08  16:35:26.564 DEBUG com.zyd.blog.persistence.mapper.SysResourceMapper.listUrlAndPermission - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - ==>  Preparing: SELECT url, permission FROM sys_resources WHERE url IS NOT NULL ORDER BY sort ASC 
+2019-07-08  16:35:26.643 DEBUG com.zyd.blog.persistence.mapper.SysResourceMapper.listUrlAndPermission - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - ==> Parameters: 
+2019-07-08  16:35:26.729 DEBUG com.zyd.blog.persistence.mapper.SysResourceMapper.listUrlAndPermission - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - <==      Total: 23
+2019-07-08  16:35:26.747 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:191)
+ - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@163370c2]
+2019-07-08  16:35:30.447 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:54)
+ - 博客关键配置信息：
+2019-07-08  16:35:30.448 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:60)
+ - The following profiles are active: dev,center-dev,center
+2019-07-08  16:35:30.450 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:63)
+ - Data Source：
+2019-07-08  16:35:30.452 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:64)
+ -   - url：jdbc:mysql://132.232.32.20:3306/dblog?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+2019-07-08  16:35:30.462 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:65)
+ -   - username：root
+2019-07-08  16:35:30.464 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:66)
+ -   - password：Xtao@12345678ms
+2019-07-08  16:35:30.467 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:68)
+ - Redis：
+2019-07-08  16:35:30.475 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:69)
+ -   - database：5
+2019-07-08  16:35:30.477 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:70)
+ -   - host：132.232.32.20
+2019-07-08  16:35:30.479 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:71)
+ -   - port：6379
+2019-07-08  16:35:30.481 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:72)
+ -   - password：e234567b
+2019-07-08  16:35:34.517 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:97)
+ - Creating a new SqlSession
+2019-07-08  16:35:34.519 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:148)
+ - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@704f1591] was not registered for synchronization because synchronization is not active
+2019-07-08  16:35:34.524 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - Caller+0	 at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87)
+ - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@51bf5add] will not be managed by Spring
+2019-07-08  16:35:34.526 DEBUG com.zyd.blog.persistence.mapper.SysConfigMapper.selectAll - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - ==>  Preparing: SELECT id,create_time,update_time,config_key,config_value FROM sys_config 
+2019-07-08  16:35:34.528 DEBUG com.zyd.blog.persistence.mapper.SysConfigMapper.selectAll - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - ==> Parameters: 
+2019-07-08  16:35:34.614 DEBUG com.zyd.blog.persistence.mapper.SysConfigMapper.selectAll - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - <==      Total: 40
+2019-07-08  16:35:34.620 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:191)
+ - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@704f1591]
+2019-07-08  16:35:34.686 INFO  com.zyd.blog.framework.config.AsyncConfig$ContextAwarePoolExecutor - Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+ - Initializing ExecutorService 'getAsyncExecutor'
+2019-07-08  16:35:36.495 INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)
+ - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-08  16:35:36.497 INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)
+ - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-08  16:35:36.500 INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)
+ - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-08  16:35:36.501 INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)
+ - Clear EntityHelper entityTableMap cache.
+2019-07-08  16:35:36.509 DEBUG tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration.afterPropertiesSet(MapperAutoConfiguration.java:244)
+ - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-07-08  16:35:36.518 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Caller+0	 at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration.afterPropertiesSet(MybatisAutoConfiguration.java:234)
+ - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-07-08  16:35:37.830 INFO  org.quartz.impl.StdSchedulerFactory - Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1208)
+ - Using default implementation for ThreadExecutor
+2019-07-08  16:35:37.868 INFO  org.quartz.core.SchedulerSignalerImpl - Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+ - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-07-08  16:35:37.871 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+ - Quartz Scheduler v.2.3.0 created.
+2019-07-08  16:35:37.874 INFO  org.quartz.simpl.RAMJobStore - Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+ - RAMJobStore initialized.
+2019-07-08  16:35:37.877 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+ - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-07-08  16:35:37.879 INFO  org.quartz.impl.StdSchedulerFactory - Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1362)
+ - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-07-08  16:35:37.882 INFO  org.quartz.impl.StdSchedulerFactory - Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1366)
+ - Quartz scheduler version: 2.3.0
+2019-07-08  16:35:37.885 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2287)
+ - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@192f2f27
+2019-07-08  16:35:38.679 DEBUG org.quartz.core.QuartzSchedulerThread - Caller+0	 at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:291)
+ - batch acquisition of 0 triggers
+2019-07-08  16:35:38.679 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-07-08  16:35:38.848 ERROR org.apache.catalina.util.LifecycleBase - Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:175)
+ - Failed to start component [Connector[HTTP/1.1-28080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.zyd.blog.BlogAdminApplication.main(BlogAdminApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1108)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:550)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:957)
+	... 22 common frames omitted
+2019-07-08  16:35:38.934 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - Caller+0	 at org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42)
+ - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 28080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 28080, or configure this application to listen on another port.
+
+2019-07-08  16:35:38.948 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-07-08  16:35:38.953 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-07-08  16:35:38.961 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-07-08  16:35:38.964 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool.shutdown(SimpleThreadPool.java:328)
+ - Shutting down threadpool...
+2019-07-08  16:35:38.966 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool.shutdown(SimpleThreadPool.java:395)
+ - Shutdown of threadpool complete.
+2019-07-08  16:35:38.968 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-07-08  16:35:38.979 INFO  com.zyd.blog.framework.config.AsyncConfig$ContextAwarePoolExecutor - Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+ - Shutting down ExecutorService 'getAsyncExecutor'
+2019-07-08  16:35:39.036 INFO  com.alibaba.druid.pool.DruidDataSource - Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1825)
+ - {dataSource-1} closed
+2019-07-08  16:35:39.342 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  16:35:39.342 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  16:35:39.342 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  16:35:39.342 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  16:35:39.342 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  16:35:39.342 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  16:35:39.342 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  16:35:39.355 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  16:35:39.355 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  16:35:39.355 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:07.227 INFO  com.zyd.blog.BlogAdminApplication - Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)
+ - Starting BlogAdminApplication v2.2.2 on IW-20190211CJKX with PID 3584 (D:\me_workspace2\blog-admin\target\blog-admin-2.2.2.jar started by Administrator in E:\Lance\Data\github\myblog)
+2019-07-08  18:17:07.236 DEBUG com.zyd.blog.BlogAdminApplication - Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53)
+ - Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2019-07-08  18:17:07.244 INFO  com.zyd.blog.BlogAdminApplication - Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:679)
+ - The following profiles are active: dev,center-dev,center
+2019-07-08  18:17:09.406 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleMapper.class]
+2019-07-08  18:17:09.408 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizStatisticsMapper.class]
+2019-07-08  18:17:09.414 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysLinkMapper.class]
+2019-07-08  18:17:09.419 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysRoleMapper.class]
+2019-07-08  18:17:09.421 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysUserMapper.class]
+2019-07-08  18:17:09.425 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleArchivesMapper.class]
+2019-07-08  18:17:09.426 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleTagsMapper.class]
+2019-07-08  18:17:09.435 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizTagsMapper.class]
+2019-07-08  18:17:09.438 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysLogMapper.class]
+2019-07-08  18:17:09.442 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysRoleResourcesMapper.class]
+2019-07-08  18:17:09.443 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysUserRoleMapper.class]
+2019-07-08  18:17:09.445 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleLoveMapper.class]
+2019-07-08  18:17:09.447 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizFileMapper.class]
+2019-07-08  18:17:09.450 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysConfigMapper.class]
+2019-07-08  18:17:09.459 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysResourceMapper.class]
+2019-07-08  18:17:09.460 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysUpdateRecordeMapper.class]
+2019-07-08  18:17:09.462 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizArticleLookMapper.class]
+2019-07-08  18:17:09.464 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizCommentMapper.class]
+2019-07-08  18:17:09.468 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/BizTypeMapper.class]
+2019-07-08  18:17:09.470 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysNoticeMapper.class]
+2019-07-08  18:17:09.473 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437)
+ - Identified candidate component class: URL [jar:file:/D:/me_workspace2/blog-admin/target/blog-admin-2.2.2.jar!/BOOT-INF/lib/blog-core-2.2.2.jar!/com/zyd/blog/persistence/mapper/SysTemplateMapper.class]
+2019-07-08  18:17:09.476 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleMapper' and 'com.zyd.blog.persistence.mapper.BizArticleMapper' mapperInterface
+2019-07-08  18:17:09.480 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleMapper'.
+2019-07-08  18:17:09.482 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizStatisticsMapper' and 'com.zyd.blog.persistence.mapper.BizStatisticsMapper' mapperInterface
+2019-07-08  18:17:09.486 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizStatisticsMapper'.
+2019-07-08  18:17:09.488 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysLinkMapper' and 'com.zyd.blog.persistence.mapper.SysLinkMapper' mapperInterface
+2019-07-08  18:17:09.489 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysLinkMapper'.
+2019-07-08  18:17:09.491 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysRoleMapper' and 'com.zyd.blog.persistence.mapper.SysRoleMapper' mapperInterface
+2019-07-08  18:17:09.492 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysRoleMapper'.
+2019-07-08  18:17:09.494 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysUserMapper' and 'com.zyd.blog.persistence.mapper.SysUserMapper' mapperInterface
+2019-07-08  18:17:09.497 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysUserMapper'.
+2019-07-08  18:17:09.501 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleArchivesMapper' and 'com.zyd.blog.persistence.mapper.BizArticleArchivesMapper' mapperInterface
+2019-07-08  18:17:09.503 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleArchivesMapper'.
+2019-07-08  18:17:09.561 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleTagsMapper' and 'com.zyd.blog.persistence.mapper.BizArticleTagsMapper' mapperInterface
+2019-07-08  18:17:09.565 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleTagsMapper'.
+2019-07-08  18:17:09.568 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizTagsMapper' and 'com.zyd.blog.persistence.mapper.BizTagsMapper' mapperInterface
+2019-07-08  18:17:09.571 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizTagsMapper'.
+2019-07-08  18:17:09.574 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysLogMapper' and 'com.zyd.blog.persistence.mapper.SysLogMapper' mapperInterface
+2019-07-08  18:17:09.580 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysLogMapper'.
+2019-07-08  18:17:09.586 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysRoleResourcesMapper' and 'com.zyd.blog.persistence.mapper.SysRoleResourcesMapper' mapperInterface
+2019-07-08  18:17:09.610 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysRoleResourcesMapper'.
+2019-07-08  18:17:09.613 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysUserRoleMapper' and 'com.zyd.blog.persistence.mapper.SysUserRoleMapper' mapperInterface
+2019-07-08  18:17:09.617 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysUserRoleMapper'.
+2019-07-08  18:17:09.620 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleLoveMapper' and 'com.zyd.blog.persistence.mapper.BizArticleLoveMapper' mapperInterface
+2019-07-08  18:17:09.624 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleLoveMapper'.
+2019-07-08  18:17:09.627 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizFileMapper' and 'com.zyd.blog.persistence.mapper.BizFileMapper' mapperInterface
+2019-07-08  18:17:09.630 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizFileMapper'.
+2019-07-08  18:17:09.632 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysConfigMapper' and 'com.zyd.blog.persistence.mapper.SysConfigMapper' mapperInterface
+2019-07-08  18:17:09.635 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysConfigMapper'.
+2019-07-08  18:17:09.638 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysResourceMapper' and 'com.zyd.blog.persistence.mapper.SysResourceMapper' mapperInterface
+2019-07-08  18:17:09.642 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysResourceMapper'.
+2019-07-08  18:17:09.647 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysUpdateRecordeMapper' and 'com.zyd.blog.persistence.mapper.SysUpdateRecordeMapper' mapperInterface
+2019-07-08  18:17:09.651 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysUpdateRecordeMapper'.
+2019-07-08  18:17:09.656 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizArticleLookMapper' and 'com.zyd.blog.persistence.mapper.BizArticleLookMapper' mapperInterface
+2019-07-08  18:17:09.660 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizArticleLookMapper'.
+2019-07-08  18:17:09.664 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizCommentMapper' and 'com.zyd.blog.persistence.mapper.BizCommentMapper' mapperInterface
+2019-07-08  18:17:09.666 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizCommentMapper'.
+2019-07-08  18:17:09.673 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'bizTypeMapper' and 'com.zyd.blog.persistence.mapper.BizTypeMapper' mapperInterface
+2019-07-08  18:17:09.678 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'bizTypeMapper'.
+2019-07-08  18:17:09.682 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysNoticeMapper' and 'com.zyd.blog.persistence.mapper.SysNoticeMapper' mapperInterface
+2019-07-08  18:17:09.686 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysNoticeMapper'.
+2019-07-08  18:17:09.689 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:156)
+ - Creating MapperFactoryBean with name 'sysTemplateMapper' and 'com.zyd.blog.persistence.mapper.SysTemplateMapper' mapperInterface
+2019-07-08  18:17:09.694 DEBUG tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:202)
+ - Enabling autowire by type for MapperFactoryBean with name 'sysTemplateMapper'.
+2019-07-08  18:17:10.043 DEBUG tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MapperAutoConfiguration.java:189)
+ - Searching for mappers annotated with @Mapper
+2019-07-08  18:17:10.080 DEBUG tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MapperAutoConfiguration.java:201)
+ - Using auto-configuration base package 'com.zyd.blog'
+2019-07-08  18:17:10.164 WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at tk.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:142)
+ - No MyBatis mapper was found in '[com.zyd.blog]' package. Please check your configuration.
+2019-07-08  18:17:10.256 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Caller+0	 at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MybatisAutoConfiguration.java:184)
+ - Searching for mappers annotated with @Mapper
+2019-07-08  18:17:10.262 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Caller+0	 at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MybatisAutoConfiguration.java:196)
+ - Using auto-configuration base package 'com.zyd.blog'
+2019-07-08  18:17:10.300 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Caller+0	 at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166)
+ - No MyBatis mapper was found in '[com.zyd.blog]' package. Please check your configuration.
+2019-07-08  18:17:11.778 INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+ - Init DruidDataSource
+2019-07-08  18:17:12.419 INFO  com.alibaba.druid.pool.DruidDataSource - Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930)
+ - {dataSource-1} inited
+2019-07-08  18:17:12.602 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:437)
+ - Scanned package: 'com.zyd.blog.persistence.beans' for aliases
+2019-07-08  18:17:12.881 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleMapper.xml]'
+2019-07-08  18:17:12.910 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizTypeMapper.xml]'
+2019-07-08  18:17:12.927 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysLinkMapper.xml]'
+2019-07-08  18:17:12.969 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysNoticeMapper.xml]'
+2019-07-08  18:17:12.988 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysRoleResourcesMapper.xml]'
+2019-07-08  18:17:13.011 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysUserRoleMapper.xml]'
+2019-07-08  18:17:13.043 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleArchivesMapper.xml]'
+2019-07-08  18:17:13.069 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleTagsMapper.xml]'
+2019-07-08  18:17:13.085 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizStatisticsMapper.xml]'
+2019-07-08  18:17:13.116 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysRoleMapper.xml]'
+2019-07-08  18:17:13.160 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysUserMapper.xml]'
+2019-07-08  18:17:13.178 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleLoveMapper.xml]'
+2019-07-08  18:17:13.198 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizFileMapper.xml]'
+2019-07-08  18:17:13.221 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizTagsMapper.xml]'
+2019-07-08  18:17:13.249 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysResourceMapper.xml]'
+2019-07-08  18:17:13.268 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysTemplateMapper.xml]'
+2019-07-08  18:17:13.287 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizArticleLookMapper.xml]'
+2019-07-08  18:17:13.316 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/BizCommentMapper.xml]'
+2019-07-08  18:17:13.328 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysConfigMapper.xml]'
+2019-07-08  18:17:13.342 DEBUG org.mybatis.spring.SqlSessionFactoryBean - Caller+0	 at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529)
+ - Parsed mapper file: 'class path resource [mybatis/SysUpdateRecordeMapper.xml]'
+2019-07-08  18:17:15.670 DEBUG org.crazycake.shiro.RedisCacheManager - Caller+0	 at org.crazycake.shiro.RedisCacheManager.getCache(RedisCacheManager.java:47)
+ - 获取名称为: com.zyd.blog.core.shiro.realm.ShiroRealm.authorizationCache 的RedisCache实例
+2019-07-08  18:17:15.720 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:97)
+ - Creating a new SqlSession
+2019-07-08  18:17:15.736 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:148)
+ - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@478db956] was not registered for synchronization because synchronization is not active
+2019-07-08  18:17:16.649 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - Caller+0	 at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87)
+ - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ca18a14] will not be managed by Spring
+2019-07-08  18:17:16.657 DEBUG com.zyd.blog.persistence.mapper.SysResourceMapper.listUrlAndPermission - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - ==>  Preparing: SELECT url, permission FROM sys_resources WHERE url IS NOT NULL ORDER BY sort ASC 
+2019-07-08  18:17:16.700 DEBUG com.zyd.blog.persistence.mapper.SysResourceMapper.listUrlAndPermission - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - ==> Parameters: 
+2019-07-08  18:17:16.807 DEBUG com.zyd.blog.persistence.mapper.SysResourceMapper.listUrlAndPermission - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - <==      Total: 23
+2019-07-08  18:17:16.811 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:191)
+ - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@478db956]
+2019-07-08  18:17:20.694 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:54)
+ - 博客关键配置信息：
+2019-07-08  18:17:20.698 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:60)
+ - The following profiles are active: dev,center-dev,center
+2019-07-08  18:17:20.705 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:63)
+ - Data Source：
+2019-07-08  18:17:20.710 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:64)
+ -   - url：jdbc:mysql://132.232.32.20:3306/dblog?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+2019-07-08  18:17:20.719 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:65)
+ -   - username：root
+2019-07-08  18:17:20.723 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:66)
+ -   - password：Xtao@12345678ms
+2019-07-08  18:17:20.726 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:68)
+ - Redis：
+2019-07-08  18:17:20.729 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:69)
+ -   - database：5
+2019-07-08  18:17:20.734 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:70)
+ -   - host：132.232.32.20
+2019-07-08  18:17:20.738 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:71)
+ -   - port：6379
+2019-07-08  18:17:20.742 INFO  com.zyd.blog.framework.runner.BlogApplicationRunner - Caller+0	 at com.zyd.blog.framework.runner.BlogApplicationRunner.contextInitialized(BlogApplicationRunner.java:72)
+ -   - password：e234567b
+2019-07-08  18:17:24.616 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:97)
+ - Creating a new SqlSession
+2019-07-08  18:17:24.620 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:148)
+ - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dfddc9a] was not registered for synchronization because synchronization is not active
+2019-07-08  18:17:24.626 DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - Caller+0	 at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87)
+ - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@6ca18a14] will not be managed by Spring
+2019-07-08  18:17:24.631 DEBUG com.zyd.blog.persistence.mapper.SysConfigMapper.selectAll - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - ==>  Preparing: SELECT id,create_time,update_time,config_key,config_value FROM sys_config 
+2019-07-08  18:17:24.636 DEBUG com.zyd.blog.persistence.mapper.SysConfigMapper.selectAll - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - ==> Parameters: 
+2019-07-08  18:17:24.706 DEBUG com.zyd.blog.persistence.mapper.SysConfigMapper.selectAll - Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)
+ - <==      Total: 40
+2019-07-08  18:17:24.712 DEBUG org.mybatis.spring.SqlSessionUtils - Caller+0	 at org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:191)
+ - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dfddc9a]
+2019-07-08  18:17:24.774 INFO  com.zyd.blog.framework.config.AsyncConfig$ContextAwarePoolExecutor - Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+ - Initializing ExecutorService 'getAsyncExecutor'
+2019-07-08  18:17:26.519 INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)
+ - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-08  18:17:26.527 INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)
+ - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-08  18:17:26.532 INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache(MapperCacheDisabler.java:60)
+ - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-08  18:17:26.537 INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache(MapperCacheDisabler.java:83)
+ - Clear EntityHelper entityTableMap cache.
+2019-07-08  18:17:26.543 DEBUG tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration - Caller+0	 at tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration.afterPropertiesSet(MapperAutoConfiguration.java:244)
+ - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-07-08  18:17:26.552 DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration - Caller+0	 at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration.afterPropertiesSet(MybatisAutoConfiguration.java:234)
+ - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-07-08  18:17:27.784 INFO  org.quartz.impl.StdSchedulerFactory - Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1208)
+ - Using default implementation for ThreadExecutor
+2019-07-08  18:17:27.890 INFO  org.quartz.core.SchedulerSignalerImpl - Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+ - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-07-08  18:17:27.894 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+ - Quartz Scheduler v.2.3.0 created.
+2019-07-08  18:17:27.900 INFO  org.quartz.simpl.RAMJobStore - Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+ - RAMJobStore initialized.
+2019-07-08  18:17:27.906 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+ - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-07-08  18:17:27.918 INFO  org.quartz.impl.StdSchedulerFactory - Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1362)
+ - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-07-08  18:17:27.922 INFO  org.quartz.impl.StdSchedulerFactory - Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1366)
+ - Quartz scheduler version: 2.3.0
+2019-07-08  18:17:27.926 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2287)
+ - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@ec0c838
+2019-07-08  18:17:28.661 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-07-08  18:17:28.662 DEBUG org.quartz.core.QuartzSchedulerThread - Caller+0	 at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:291)
+ - batch acquisition of 0 triggers
+2019-07-08  18:17:28.732 ERROR org.apache.catalina.util.LifecycleBase - Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:175)
+ - Failed to start component [Connector[HTTP/1.1-28080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.zyd.blog.BlogAdminApplication.main(BlogAdminApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1108)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:550)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:957)
+	... 22 common frames omitted
+2019-07-08  18:17:28.845 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - Caller+0	 at org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:42)
+ - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 28080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 28080, or configure this application to listen on another port.
+
+2019-07-08  18:17:28.873 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-07-08  18:17:28.879 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-07-08  18:17:28.883 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-07-08  18:17:28.888 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool.shutdown(SimpleThreadPool.java:328)
+ - Shutting down threadpool...
+2019-07-08  18:17:28.892 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool.shutdown(SimpleThreadPool.java:395)
+ - Shutdown of threadpool complete.
+2019-07-08  18:17:28.896 INFO  org.quartz.core.QuartzScheduler - Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+ - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-07-08  18:17:28.901 INFO  com.zyd.blog.framework.config.AsyncConfig$ContextAwarePoolExecutor - Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+ - Shutting down ExecutorService 'getAsyncExecutor'
+2019-07-08  18:17:28.920 INFO  com.alibaba.druid.pool.DruidDataSource - Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1825)
+ - {dataSource-1} closed
+2019-07-08  18:17:29.297 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:29.297 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:29.297 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:29.301 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:29.301 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:29.304 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:29.304 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:29.304 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:29.304 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.
+2019-07-08  18:17:29.305 DEBUG org.quartz.simpl.SimpleThreadPool - Caller+0	 at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)
+ - WorkerThread is shut down.

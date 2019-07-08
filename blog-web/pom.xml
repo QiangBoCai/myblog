@@ -34,14 +34,8 @@
 			  <artifactId>blog-core</artifactId>
 			  <version>${myblog.version}</version>
         </dependency>
-        
-        <!--  <dependency>
-            <groupId>me.zhyd.braum.spring.boot</groupId>
-            <artifactId>braum-spring-boot-starter</artifactId>
-            <version>${braum.version}</version>
-        </dependency>  -->
-  </dependencies>
-  
+	</dependencies>
+
 	<build>
 		<plugins>
 			<!-- 解决@xx@无法解析的问题 -->

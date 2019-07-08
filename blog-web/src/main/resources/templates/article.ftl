@@ -1,7 +1,8 @@
 <#include "include/macros.ftl">
-<@header title="${article.title} | ${config.siteName}" keywords="${article.keywords?if_exists},${config.siteName}" description="${article.description?if_exists}" canonical="/article/${article.id}" hasEditor=true></@header>
-<#if article.coverImage?exists>
-    <img src="${article.coverImage?if_exists}" onerror="this.src='${config.staticWebSite}/img/default_article_cover.jpg'" style="display: none;" id="cover-img">
+<@header title="${article.title} | ${config.siteName}" keywords="${article.keywords!},${config.siteName}" description="${article.description!}"
+    canonical="/article/${article.id}" hasEditor=true></@header>
+<#if article.coverImage??>
+    <img src="${article.coverImage!}" onerror="this.src='${config.staticWebSite}/img/default_article_cover.jpg'" style="display: none;" id="cover-img">
 </#if>
 <div class="container custome-container">
     <nav class="breadcrumb">
@@ -87,7 +88,7 @@
                             <#if article.original?string('true','false') == 'true'>
                             本站原创文章，于${article.createTime?string('yyyy年MM月dd日')}由<a href="${config.siteUrl}" target="_blank" data-original-title="${config.siteName}" data-toggle="tooltip" data-placement="bottom"><strong>${config.authorName}</strong></a>发布，转载请注明出处
                             <#else>
-                            本文为互联网转载文章，出处已在文章中说明(部分除外)。如果侵权，请<a target="_blank" href="mailto:yadong.zhang0415@gmail.com" title="点击给我发邮件" data-toggle="tooltip" data-placement="bottom"><strong>联系本站长</strong></a>删除，谢谢。
+                            本文为互联网转载文章，出处已在文章中说明(部分除外)。如果侵权，请<a target="_blank" href="mailto:${config.authorEmail}" title="点击给我发邮件" data-toggle="tooltip" data-placement="bottom"><strong>联系本站长</strong></a>删除，谢谢。
                             </#if>
                         </li>
                     </ul>
@@ -134,15 +135,15 @@
                 <h5 class="custom-title"><i class="fa fa-fire fa-fw icon"></i><strong>热门推荐</strong><small></small></h5>
                 <ul class="list-unstyled">
                     <@articleTag method="hotList" pageSize="10">
-                        <#if hotList?exists && (hotList?size > 0)>
+                        <#if hotList?? && (hotList?size > 0)>
                             <#list hotList as item>
                             <li class="line-li">
                                 <div class="line-container">
                                     <div class="line-left">
-                                        <#if item.coverImage?exists>
-                                            <img class="lazy-img" data-original="${item.coverImage}" width="50" height="50" rel="external nofollow"/>
+                                        <#if item.coverImage??>
+                                            <img class="lazy-img" <#if config.lazyloadPath!>data-original<#else>src</#if>="${item.coverImage}" width="50" height="50" rel="external nofollow"/>
                                         <#else>
-                                            <img class="lazy-img" data-original="${config.staticWebSite}/img/favicon.ico" width="50" height="50" rel="external nofollow"/>
+                                            <img class="lazy-img" <#if config.lazyloadPath!>data-original<#else>src</#if>="${config.staticWebSite}/img/favicon.ico" width="50" height="50" rel="external nofollow"/>
                                         </#if>
                                     </div>
                                     <div class="line-right">
@@ -216,6 +217,6 @@
         window._bd_share_config={"common":{"bdSnsKey":{},"bdText":bdText,"bdMini":"2","bdMiniList":["mshare","qzone","tsina","bdysc","weixin","renren","tqq","kaixin001","tqf","tieba","douban","bdhome","sqq","youdao","sdo","qingbiji","mail","isohu","ty","fbook","twi","linkedin","h163","evernotecn","copy","print"],"bdPic":coverImg,"bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
     </script>
     <script src="https://v1.hitokoto.cn/?encode=js&c=d&select=%23hitokoto" defer></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/simplemde/1.11.2/simplemde.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/lib/highlight.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/simplemde@1.11.2/dist/simplemde.min.js"></script>
 </@footer>

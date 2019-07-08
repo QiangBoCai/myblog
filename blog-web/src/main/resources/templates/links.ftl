@@ -1,8 +1,7 @@
 <#include "include/macros.ftl">
-<@compress single_line=true>
+<@compress single_line=false>
 <@header title="友情链接 | ${config.siteName}"
-    keywords="${config.siteName},友情链接交换"
-    description="${config.siteName}，一个程序员的个人原创博客，友情链接交换"
+    description="${config.siteName}，友情链接交换"
     canonical="/links">
 </@header>
 
@@ -15,7 +14,7 @@
         <@blogHeader title="友情链接"></@blogHeader>
         <div class="col-sm-12 blog-main">
             <div class="blog-body expansion">
-                <h4 class="custom-title"><i class="fa fa-coffee fa-fw"></i><strong>简单的要求</strong><small> - 简单点，说话的方式简单点</small></h4>
+                <h5 class="custom-title"><i class="fa fa-coffee fa-fw"></i><strong>简单的要求</strong><small> - 简单点，说话的方式简单点</small></h5>
                 <div class="link-info">
                     <ul class="list-unstyled">
                         <li>本站定位：个人技术类博客</li>

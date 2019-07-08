@@ -1,9 +1,9 @@
 <#include "include/macros.ftl">
-<@compress single_line=true>
-<@header title="${config.siteName?if_exists} | 一个程序员的个人博客"
-    keywords="${config.homeKeywords?if_exists}"
-    description="${config.homeDesc?if_exists}"
-    canonical="/${url?if_exists}">
+<@compress single_line=false>
+<@header title="${config.siteName!}"
+    keywords="${config.homeKeywords!}"
+    description="${config.homeDesc!}"
+    canonical="/${url!}">
 </@header>
 
 <div class="container custome-container">
@@ -14,10 +14,10 @@
             <div class="scrolltext">
                 <ul class="list-unstyled" id="notice-box">
                     <li class="scrolltext-title">
-                        <a href="javascript:void(0)" rel="bookmark">本站正式启用新域名:<a href="https:/www.zhyd.me" target="_blank"><strong>https:/www.zhyd.me</strong></a></a>
+                        <a href="javascript:void(0)" rel="bookmark">本站正式启用新域名:<a href="https:/www.spidermi.com" target="_blank"><strong>https:/www.zhyd.me</strong></a></a>
                     </li>
                     <li class="scrolltext-title">
-                        <a href="javascript:void(0)" rel="bookmark">活了二十多年，没能为祖国、为人民做点什么，每思及此，伤心欲绝。</a>
+                        <a href="javascript:void(0)" rel="bookmark">活了30年，没能为祖国、为人民做点什么，每思及此，伤心欲绝。</a>
                     </li>
                     <li class="scrolltext-title">
                         <a href="javascript:void(0)" rel="bookmark">其实我们可以将所有的问题归结为两种：一种是没饭吃饿出来的；一种是吃饱了撑出来的。</a>
@@ -26,10 +26,11 @@
             </div>
         </div>
     </nav>
+    <#include "layout/sidebar.ftl"/>
     <div class="row">
         <div class="col-sm-8 blog-main">
             <@articleTag method="recommendedList" pageSize="8">
-                <#if recommendedList?exists && (recommendedList?size > 0)>
+                <#if recommendedList?? && (recommendedList?size > 0)>
                 <div class="blog-body expansion" style="padding: 0;">
                     <div id="myCarousel" class="carousel slide" style="height:300px;">
                         <ol class="carousel-indicators">
@@ -59,19 +60,17 @@
                 </div>
                 </#if>
             </@articleTag>
-            <#if page.list?exists && (page.list?size > 0)>
+            <#if page.list?? && (page.list?size > 0)>
                 <#list page.list as item>
                     <article class="fade-in">
-                        <figure class="thumbnail">
-                            <a href="${config.siteUrl}/article/${item.id?c}">
-                                <#if item.coverImage?exists && (item.coverImage?length > 7)>
-                                    <img width="150" height="150" data-original="${item.coverImage}" class="img-responsive lazy-img" alt="${item.title?if_exists}">
-                                <#else>
-                                    <img width="150" height="150" data-original="${config.staticWebSite}/img/user/11.jpg" class="img-responsive lazy-img" alt="${item.title?if_exists}">
-                                </#if>
-                            </a>
-                            <span class="cat"><a href="${config.siteUrl}/type/${item.typeId?c}">${item.type.name}</a></span>
-                        </figure>
+                        <#if item.coverImage?? && (item.coverImage?length > 7)>
+                            <figure class="thumbnail">
+                                <a href="${config.siteUrl}/article/${item.id?c}">
+                                    <img width="150" height="150" <#if config.lazyloadPath!>data-original<#else>src</#if>="${item.coverImage}" class="img-responsive lazy-img" alt="${item.title!}">
+                                </a>
+                                <span class="cat"><a href="${config.siteUrl}/type/${item.typeId?c}">${item.type.name}</a></span>
+                            </figure>
+                        </#if>
                         <header class="entry-header">
                             <h2 class="entry-title">
                                 <a href="${config.siteUrl}/article/${item.id?c}" rel="bookmark" title="${item.title}" data-toggle="tooltip" data-placement="bottom">${item.title}</a>
@@ -79,7 +78,7 @@
                         </header>
                         <div class="entry-content">
                             <div class="archive-content">
-                                ${item.description?if_exists}
+                                ${item.description!}
                             </div>
                             <span class="title-l"></span>
                             <span class="entry-meta">
@@ -132,7 +131,7 @@
                 </article>
             </#if>
         </div>
-        <#include "layout/sidebar.ftl"/>
+
     </div>
 </div>
 
